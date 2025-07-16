@@ -14,6 +14,7 @@ const Page = async () => {
             <h3>Interview generation</h3>
 
             {/* Render the Agent component with user data */}
+
             <Agent
                 userName={user?.name!}             // User's name (forced non-null using '!')
                 userId={user?.id}                  // Firebase UID
